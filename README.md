@@ -21,21 +21,22 @@ The Hash Comparison Tool is a command-line utility that allows you to compare ha
 
 Options
 
-    Match two hash values: Manually input two hash values and compare them.
-    Match a file's content with a hash value: Compare a file's content hash with a provided hash value. Choose a hash algorithm from the list.
-    Match a file's content with another file's content: Compare the content hashes of two files.
-    Exit: Quit the program.
+   Match two hash values: Manually input two hash values and compare them.
+   Match a file's content with a hash value: Compare a file's content hash with a provided hash value. Choose a hash algorithm from the list.
+   Match a file's content with another file's content: Compare the content hashes of two files.
+   Exit: Quit the program.
+
 
 Dependencies
 
-    Python 3.x
-    hashlib library (comes with Python)
+   Python 3.x
+   hashlib library (comes with Python)
 
 Color Codes
 
 The tool uses color codes for clearer visual feedback:
 
-    Green: Hashes or contents match.
+   Green: Hashes or contents match.
     Red: Hashes or contents do not match.
 
 Contribution
