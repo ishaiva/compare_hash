@@ -1,0 +1,23 @@
+brief explanation of the main components and functionalities of the script:
+
+    Color Codes and Formatting: The script defines color codes using ANSI escape sequences to format text output. This is used to display messages in different colors, making it visually clear when hashes match or don't match.
+
+    Function Definitions:
+        print_header(): Prints a header when the program starts.
+        compare_hashes(hash1, hash2): Compares two hash values and returns True if they match, and False otherwise.
+        main(): The main function where the user interacts with the program. It presents a menu of options for hash comparison.
+
+    Menu Options:
+        Option 1: Allows the user to manually input two hash values and compares them.
+        Option 2: Compares a file's content with a hash value. The user selects a hash algorithm, provides a hash value, and the path to a file. The script calculates the hash of the file's content and compares it with the provided hash value.
+        Option 3: Compares the contents of two files. The user provides the paths to two files, and the script compares their content hashes.
+        Option 4: Exits the program, after confirming with the user.
+
+    Hash Algorithm Selection: When comparing file contents or hashes, the script allows the user to choose a hash algorithm (MD5, SHA-1, SHA-256, etc.) from a predefined list.
+
+    Usage:
+        Run the script in a command-line environment.
+        The user selects options using the corresponding numbers.
+        For hash comparisons involving files, the user provides file paths and may choose a hash algorithm.
+
+The script uses the hashlib library for calculating hash values, and it provides a simple and convenient way to check whether two hash values or file contents match, which is commonly used for data integrity verification and security purposes.
